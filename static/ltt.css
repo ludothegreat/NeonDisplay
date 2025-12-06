@@ -22,9 +22,9 @@
     --color-border-strong: #666666;
 
     /* Interactive colors */
-    --color-primary: #fc4c02;   /* Pantone 1655 C */
-    --color-primary-hover: #ff6424;
-    --color-primary-active: #e14402;
+    --color-primary: #e4571b;   /* toned-down LTT orange */
+    --color-primary-hover: #ff6c35;
+    --color-primary-active: #c74312;
     --color-secondary: #3a3a3a;
     --color-secondary-hover: #4a4a4a;
     --color-secondary-active: #2c2c2c;
@@ -106,9 +106,9 @@
     --color-border-strong: #a9a9a9;
 
     /* Interactive colors */
-    --color-primary: #fc4c02;
-    --color-primary-hover: #e14402;
-    --color-primary-active: #b63a02;
+    --color-primary: #e4571b;
+    --color-primary-hover: #c74312;
+    --color-primary-active: #a2350d;
     --color-secondary: #ffffff;
     --color-secondary-hover: #f1f1f1;
     --color-secondary-active: #e6e6e6;
