@@ -217,25 +217,21 @@
             max-width: 400px;
             z-index: 1000;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-family: var(--font-bold);
+            font-weight: bold;
+            border: none;
         }
         .status.info {
             background: var(--color-info-bg);
             color: var(--color-info-text);
-            border: 2px solid var(--color-info-border);
         }
         .status.success {
-            background: var(--color-success-bg);
-            color: var(--color-success-text);
-            border: 2px solid var(--color-success-border);
+            background: #113325;
+            color: var(--color-text-primary);
         }
         .status.error {
             background: var(--color-error-bg);
             color: var(--color-error-text);
-            border: 2px solid var(--color-error-border);
-        }
-        .status.info, .status.success, .status.error {
-            font-family: var(--font-bold);
-            font-weight: bold;
         }
         input, button, select {
             padding: 8px 12px;

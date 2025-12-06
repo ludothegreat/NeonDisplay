@@ -124,12 +124,13 @@
             background: var(--color-secondary-hover);
         }
         .btn-success {
-            background: var(--color-success);
-            color: var(--color-success-text);
+            background: #113325;
+            color: var(--color-text-primary);
+            border: 2px solid #113325;
         }
         .btn-success:hover {
-            background: var(--color-success);
-            filter: brightness(1.2);
+            background: #15452f;
+            filter: none;
         }
         .btn-danger {
             background: var(--color-primary);
@@ -145,16 +146,19 @@
             border-radius: 5px;
             margin: 10px 0;
             text-align: center;
+            border: none;
         }
         .status.success {
-            background: var(--color-success-bg);
-            color: var(--color-success-text);
-            border: 2px solid var(--color-success-border);
+            background: #113325;
+            color: var(--color-text-primary);
         }
         .status.error {
             background: var(--color-error-bg);
             color: var(--color-error-text);
-            border: 2px solid var(--color-error-border);
+        }
+        .status.warning {
+            background: var(--color-primary);
+            color: var(--color-text-primary);
         }
         .api-status-label {
             font-weight: bold;

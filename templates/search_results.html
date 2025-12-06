@@ -267,8 +267,8 @@
         }
         .queue-button {
             padding: 8px 12px;
-            background: var(--color-warning);
-            color: var(--color-warning-text);
+            background: var(--color-primary);
+            color: var(--color-text-primary);
             border: none;
             border-radius: 4px;
             cursor: pointer;
@@ -276,8 +276,7 @@
             white-space: nowrap;
         }
         .queue-button:hover {
-            background: var(--color-warning);
-            filter: brightness(1.2);
+            background: var(--color-primary-hover);
         }
         .play-button:disabled,
         .queue-button:disabled {
@@ -290,23 +289,20 @@
             border-radius: 5px;
             margin: 10px 0;
             text-align: center;
-            border: 2px solid;
+            border: none;
             font-weight: bold;
         }
         .status.info {
             background: var(--color-info-bg);
             color: var(--color-info-text);
-            border-color: var(--color-info-border);
         }
         .status.success {
-            background: var(--color-success-bg);
-            color: var(--color-success-text);
-            border-color: var(--color-success-border);
+            background: #113325;
+            color: var(--color-text-primary);
         }
         .status.error {
             background: var(--color-error-bg);
             color: var(--color-error-text);
-            border-color: var(--color-error-border);
         }
         .back-button {
             background: var(--color-bg-overlay);
