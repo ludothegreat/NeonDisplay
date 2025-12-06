@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'GruvMono';
+    src: url('/static/font/mx_univga.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GruvMonoBold';
+    src: url('/static/font/mx_univga.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-primary: 'GruvMono', monospace;
+    --font-bold: 'GruvMonoBold', monospace;
+
+    /* Base palette */
+    --color-bg-base: #1d2021;
+    --color-bg-elevated: #202425;
+    --color-bg-overlay: #252a2b;
+    --color-text-primary: #ebdbb2;
+    --color-text-secondary: #d5c4a1;
+    --color-text-tertiary: #bdae93;
+    --color-border-default: #3a3f3f;
+    --color-border-subtle: #2a2e2f;
+    --color-border-strong: #4b5252;
+
+    /* Interactive */
+    --color-primary: #f2b01d;
+    --color-primary-hover: #e09e15;
+    --color-primary-active: #d98c05;
+    --color-secondary: #3b4041;
+    --color-secondary-hover: #4c5253;
+    --color-secondary-active: #5c6364;
+
+    /* Status */
+    --color-success: #a3be2d;
+    --color-success-bg: #2a351f;
+    --color-success-border: #a3be2d;
+    --color-success-text: #ebdbb2;
+    --color-error: #fb4934;
+    --color-error-bg: #2f1f1d;
+    --color-error-border: #fb4934;
+    --color-error-text: #ebdbb2;
+    --color-warning: #fe8019;
+    --color-warning-bg: #2f2418;
+    --color-warning-border: #fe8019;
+    --color-warning-text: #ebdbb2;
+    --color-info: #83a598;
+    --color-info-bg: #1e2b2f;
+    --color-info-border: #83a598;
+    --color-info-text: #ebdbb2;
+
+    /* Component-specific */
+    --color-card-bg: #222627;
+    --color-card-border: #404748;
+    --color-log-bg: #141718;
+    --color-log-text: #ebdbb2;
+    --color-input-bg: #232829;
+    --color-input-border: #404748;
+    --color-input-text: #ebdbb2;
+    --color-input-placeholder: #7c6f64;
+
+    /* Legacy mappings */
+    --bg-primary: var(--color-bg-base);
+    --bg-secondary: var(--color-bg-elevated);
+    --bg-tertiary: var(--color-bg-overlay);
+    --text-primary: var(--color-text-primary);
+    --text-secondary: var(--color-text-secondary);
+    --accent-color: var(--color-primary);
+    --accent-hover: var(--color-primary-hover);
+    --border-color: var(--color-border-default);
+    --success-bg: var(--color-success-bg);
+    --success-border: var(--color-success-border);
+    --success-color: var(--color-success-text);
+    --error-bg: var(--color-error-bg);
+    --error-border: var(--color-error-border);
+    --warning-bg: var(--color-warning-bg);
+    --warning-border: var(--color-warning-border);
+    --warning-color: var(--color-warning-text);
+    --info-bg: var(--color-info-bg);
+    --info-border: var(--color-info-border);
+    --card-bg: var(--color-card-bg);
+    --log-bg: var(--color-log-bg);
+    --text-on-dark: var(--color-text-primary);
+    --text-on-light: #282828;
+    --text-secondary-on-dark: var(--color-text-secondary);
+    --button-text: #1d2021;
+    --button-secondary-bg: var(--color-secondary);
+    --button-secondary-text: var(--color-text-primary);
+    --button-secondary-hover: var(--color-secondary-hover);
+    --success-hover: #94b028;
+    --error-hover: #f26659;
+    --warning-hover: #f39c12;
+}
+
+[data-theme="light"] {
+    --font-primary: 'GruvMono', monospace;
+    --font-bold: 'GruvMonoBold', monospace;
+
+    /* Base palette */
+    --color-bg-base: #ede0bb;
+    --color-bg-elevated: #e1d4a9;
+    --color-bg-overlay: #d5c49a;
+    --color-text-primary: #3c3836;
+    --color-text-secondary: #5a524c;
+    --color-text-tertiary: #6b625c;
+    --color-border-default: #b19d7a;
+    --color-border-subtle: #c8b89a;
+    --color-border-strong: #9c8763;
+
+    /* Interactive */
+    --color-primary: #c28e1d;
+    --color-primary-hover: #a87216;
+    --color-primary-active: #8f5d10;
+    --color-secondary: #b19d7a;
+    --color-secondary-hover: #9c8763;
+    --color-secondary-active: #866f4e;
+
+    /* Status */
+    --color-success: #7c9a40;
+    --color-success-bg: #d9e7b4;
+    --color-success-border: #7c9a40;
+    --color-success-text: #3c3836;
+    --color-error: #a32119;
+    --color-error-bg: #f2c1bc;
+    --color-error-border: #a32119;
+    --color-error-text: #3c3836;
+    --color-warning: #bf640f;
+    --color-warning-bg: #f4dab3;
+    --color-warning-border: #bf640f;
+    --color-warning-text: #3c3836;
+    --color-info: #3d6f73;
+    --color-info-bg: #cfe0d8;
+    --color-info-border: #3d6f73;
+    --color-info-text: #3c3836;
+
+    /* Component-specific */
+    --color-card-bg: #f0e4c3;
+    --color-card-border: #c8b89a;
+    --color-log-bg: #e4d4ad;
+    --color-log-text: #3c3836;
+    --color-input-bg: #f5ebcc;
+    --color-input-border: #c8b89a;
+    --color-input-text: #3c3836;
+    --color-input-placeholder: #6b625c;
+
+    /* Legacy mappings */
+    --bg-primary: var(--color-bg-base);
+    --bg-secondary: var(--color-bg-elevated);
+    --bg-tertiary: var(--color-bg-overlay);
+    --text-primary: var(--color-text-primary);
+    --text-secondary: var(--color-text-secondary);
+    --accent-color: var(--color-primary);
+    --accent-hover: var(--color-primary-hover);
+    --border-color: var(--color-border-default);
+    --success-bg: var(--color-success-bg);
+    --success-border: var(--color-success-border);
+    --success-color: var(--color-success-text);
+    --error-bg: var(--color-error-bg);
+    --error-border: var(--color-error-border);
+    --warning-bg: var(--color-warning-bg);
+    --warning-border: var(--color-warning-border);
+    --warning-color: var(--color-warning-text);
+    --info-bg: var(--color-info-bg);
+    --info-border: var(--color-info-border);
+    --card-bg: var(--color-card-bg);
+    --log-bg: var(--color-log-bg);
+    --text-on-dark: #ede0bb;
+    --text-on-light: var(--color-text-primary);
+    --text-secondary-on-dark: #d5c4a1;
+    --button-text: #ede0bb;
+    --button-secondary-bg: var(--color-secondary);
+    --button-secondary-text: var(--color-text-primary);
+    --button-secondary-hover: var(--color-secondary-hover);
+    --success-hover: #5f7a30;
+    --error-hover: #7d1a14;
+    --warning-hover: #904b0b;
+}
