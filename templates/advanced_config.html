@@ -20,10 +20,10 @@
         }
         .container {
             background: var(--color-bg-elevated);
-            padding: 30px;
-            border-radius: 0;
-            box-shadow: none;
-            border: 3px solid var(--color-border-default);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+            border: 1px solid rgba(255,255,255,0.05);
             max-width: 100%;
         }
         h1 {
@@ -34,16 +34,22 @@
         }
         .section {
             background: var(--color-bg-overlay);
-            padding: 20px;
-            border-radius: 8px;
+            padding: 30px;
+            border-radius: 16px;
             margin-bottom: 30px;
-            border: 2px solid var(--color-border-default);
+            border-left: 5px solid var(--color-primary);
+            border-right: 1px solid rgba(255,255,255,0.05);
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(0,0,0,0.4);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
         }
         .section h2 {
             margin-top: 0;
             color: var(--color-text-primary);
-            border-bottom: 2px solid var(--color-border-default);
-            padding-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 1.1em;
+            margin-bottom: 18px;
         }
         .form-group {
             margin-bottom: 20px;
