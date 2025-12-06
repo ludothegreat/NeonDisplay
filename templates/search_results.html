@@ -13,10 +13,49 @@
             background: var(--color-bg-base);
             color: var(--color-text-primary);
             transition: all 0.3s ease;
+            position: relative;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: radial-gradient(circle at 15% 15%, rgba(252,76,2,0.18), transparent 45%),
+                        radial-gradient(circle at 85% 5%, rgba(0,188,212,0.12), transparent 40%),
+                        radial-gradient(circle at 60% 80%, rgba(17,51,37,0.25), transparent 35%);
+            pointer-events: none;
+            z-index: -2;
+        }
+        body::after {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(20,20,20,0.9), rgba(8,8,8,0.85));
+            pointer-events: none;
+            z-index: -3;
         }
         .container {
             max-width: 100%;
             margin: 0;
+        }
+        h1 {
+            text-align: center;
+            color: var(--color-text-primary);
+            letter-spacing: 0.12em;
+            margin-bottom: 25px;
+            position: relative;
+        }
+        h1::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            transform: translateX(-50%);
+            width: 110px;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+            border-radius: 999px;
+            box-shadow: 0 0 15px rgba(252,76,2,0.6);
         }
         .header {
             display: flex;

@@ -17,6 +17,26 @@
             background: var(--color-bg-base);
             color: var(--color-text-primary);
             transition: all 0.3s ease;
+            position: relative;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: radial-gradient(circle at 20% 20%, rgba(252,76,2,0.15), transparent 45%),
+                        radial-gradient(circle at 80% 0%, rgba(0,188,212,0.12), transparent 40%),
+                        radial-gradient(circle at 50% 80%, rgba(17,51,37,0.25), transparent 35%);
+            pointer-events: none;
+            z-index: -2;
+        }
+        body::after {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(28,28,28,0.85), rgba(10,10,10,0.85));
+            pointer-events: none;
+            z-index: -3;
         }
         .container {
             background: var(--color-bg-elevated);
@@ -29,8 +49,22 @@
         h1 {
             text-align: center;
             color: var(--color-text-primary);
-            margin-bottom: 30px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 40px;
+            letter-spacing: 0.15em;
+            font-size: 1.6em;
+            position: relative;
+        }
+        h1::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -12px;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+            border-radius: 999px;
+            box-shadow: 0 0 20px rgba(252,76,2,0.6);
         }
         .section {
             background: var(--color-bg-overlay);
