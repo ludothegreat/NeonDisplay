@@ -10,24 +10,24 @@
     --font-primary: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     --font-bold: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 
-    /* Base palette inspired by the LTT forums */
-    --color-bg-base: #16181c;
-    --color-bg-elevated: #1d2025;
-    --color-bg-overlay: #262a31;
-    --color-text-primary: #e6e8eb;
-    --color-text-secondary: #b5bac4;
-    --color-text-tertiary: #8c929e;
-    --color-border-default: #2f343d;
-    --color-border-subtle: #1f2329;
-    --color-border-strong: #3b414b;
+    /* Base palette inspired by LTT forum gray/orange */
+    --color-bg-base: #1a1a1a;
+    --color-bg-elevated: #222222;
+    --color-bg-overlay: #2b2b2b;
+    --color-text-primary: #e5e5e5;
+    --color-text-secondary: #b3b3b3;
+    --color-text-tertiary: #8c8c8c;
+    --color-border-default: #4d4d4d;
+    --color-border-subtle: #2a2a2a;
+    --color-border-strong: #666666;
 
     /* Interactive colors */
-    --color-primary: #f47921;
-    --color-primary-hover: #ff913b;
-    --color-primary-active: #d96218;
-    --color-secondary: #2a2f36;
-    --color-secondary-hover: #353b44;
-    --color-secondary-active: #424854;
+    --color-primary: #fc4c02;   /* Pantone 1655 C */
+    --color-primary-hover: #ff6424;
+    --color-primary-active: #e14402;
+    --color-secondary: #7c2806; /* deep copper accent */
+    --color-secondary-hover: #8f320b;
+    --color-secondary-active: #5e1b03;
 
     /* Status colors */
     --color-success: #4cc38a;
@@ -48,14 +48,14 @@
     --color-info-text: #dff8ff;
 
     /* Component-specific */
-    --color-card-bg: #1b1f25;
-    --color-card-border: #343a44;
-    --color-log-bg: #0d0f12;
-    --color-log-text: #f0f2f5;
-    --color-input-bg: #20242b;
-    --color-input-border: #3d424d;
-    --color-input-text: #e6e8eb;
-    --color-input-placeholder: #7f8591;
+    --color-card-bg: #232323;
+    --color-card-border: #3b3b3b;
+    --color-log-bg: #0d0d0d;
+    --color-log-text: #f5f5f5;
+    --color-input-bg: #242424;
+    --color-input-border: #505050;
+    --color-input-text: #e5e5e5;
+    --color-input-placeholder: #9c9c9c;
 
     /* Legacy mappings */
     --bg-primary: var(--color-bg-base);
@@ -95,29 +95,29 @@
     --font-bold: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 
     /* Base palette */
-    --color-bg-base: #f5f5f5;
-    --color-bg-elevated: #eceff2;
-    --color-bg-overlay: #e0e4e9;
-    --color-text-primary: #1f2329;
-    --color-text-secondary: #4d525a;
-    --color-text-tertiary: #6b707a;
-    --color-border-default: #c5ccd3;
-    --color-border-subtle: #dfe3e9;
-    --color-border-strong: #adb3bc;
+    --color-bg-base: #f7f7f7;
+    --color-bg-elevated: #efefef;
+    --color-bg-overlay: #e3e3e3;
+    --color-text-primary: #1f1f1f;
+    --color-text-secondary: #4c4c4c;
+    --color-text-tertiary: #6a6a6a;
+    --color-border-default: #c8c8c8;
+    --color-border-subtle: #dedede;
+    --color-border-strong: #a9a9a9;
 
     /* Interactive colors */
-    --color-primary: #f47921;
-    --color-primary-hover: #d96218;
-    --color-primary-active: #b95213;
+    --color-primary: #fc4c02;
+    --color-primary-hover: #e14402;
+    --color-primary-active: #b63a02;
     --color-secondary: #ffffff;
-    --color-secondary-hover: #f5f5f5;
-    --color-secondary-active: #eceff2;
+    --color-secondary-hover: #f7f7f7;
+    --color-secondary-active: #efefef;
 
     /* Status colors */
     --color-success: #1e8a56;
     --color-success-bg: #dff5e7;
     --color-success-border: #1e8a56;
-    --color-success-text: #1f2329;
+    --color-success-text: #1f1f1f;
     --color-error: #d7263d;
     --color-error-bg: #fde3e7;
     --color-error-border: #d7263d;
