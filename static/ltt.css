@@ -25,9 +25,9 @@
     --color-primary: #fc4c02;   /* Pantone 1655 C */
     --color-primary-hover: #ff6424;
     --color-primary-active: #e14402;
-    --color-secondary: #7c2806; /* deep copper accent */
-    --color-secondary-hover: #8f320b;
-    --color-secondary-active: #5e1b03;
+    --color-secondary: #3a3a3a;
+    --color-secondary-hover: #4a4a4a;
+    --color-secondary-active: #2c2c2c;
 
     /* Status colors */
     --color-success: #4cc38a;
@@ -110,8 +110,8 @@
     --color-primary-hover: #e14402;
     --color-primary-active: #b63a02;
     --color-secondary: #ffffff;
-    --color-secondary-hover: #f7f7f7;
-    --color-secondary-active: #efefef;
+    --color-secondary-hover: #f1f1f1;
+    --color-secondary-active: #e6e6e6;
 
     /* Status colors */
     --color-success: #1e8a56;
