@@ -606,7 +606,7 @@
                     <select id="css_file" name="css_file" class="form-control">
                         {% for file in available_css %}
                         <option value="{{ file }}" {% if ui_config.css_file == file %}selected{% endif %}>
-                            {{ file.replace('.css', '').replace('_', ' ').title() }}
+                            {{ 'LTT' if file == 'ltt.css' else file.replace('.css', '').replace('_', ' ').title() }}
                         </option>
                         {% endfor %}
                     </select>
