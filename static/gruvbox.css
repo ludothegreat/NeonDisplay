@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'GruvMono';
+    src: url('/static/font/mx_univga.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GruvMonoBold';
+    src: url('/static/font/mx_univga.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-primary: 'GruvMono', monospace;
+    --font-bold: 'GruvMonoBold', monospace;
+    --bg-primary: #282828;
+    --bg-secondary: #32302f;
+    --bg-tertiary: #3c3836;
+    --text-primary: #ebdbb2;
+    --text-secondary: #bdae93;
+    --accent-color: #fabd2f;
+    --accent-hover: #f2b01d;
+    --border-color: #504945;
+    --success-bg: #323c29;
+    --success-border: #b8bb26;
+    --error-bg: #3c2726;
+    --error-border: #fb4934;
+    --warning-bg: #3b3221;
+    --warning-border: #fe8019;
+    --info-bg: #2b373c;
+    --info-border: #83a598;
+    --card-bg: #3c3836;
+    --log-bg: #1d2021;
+    --success-color: #ebdbb2;
+    --warning-color: #ebdbb2;
+    --text-on-dark: #ebdbb2;
+    --text-on-light: #282828;
+    --text-secondary-on-dark: #bdae93;
+    --button-text: #282828;
+    --button-secondary-bg: #504945;
+    --button-secondary-text: #ebdbb2;
+    --button-secondary-hover: #665c54;
+    --success-hover: #a3be2d;
+    --error-hover: #f26659;
+    --warning-hover: #f39c12;
+}
+
+[data-theme="light"] {
+    --font-primary: 'GruvMono', monospace;
+    --font-bold: 'GruvMonoBold', monospace;
+    --bg-primary: #fbf1c7;
+    --bg-secondary: #f2e5bc;
+    --bg-tertiary: #ebdbb2;
+    --text-primary: #3c3836;
+    --text-secondary: #665c54;
+    --accent-color: #d79921;
+    --accent-hover: #b57614;
+    --border-color: #bdae93;
+    --success-bg: #d5e0b3;
+    --success-border: #8ec07c;
+    --error-bg: #f2c2c1;
+    --error-border: #cc241d;
+    --warning-bg: #f6dfb3;
+    --warning-border: #d65d0e;
+    --info-bg: #d0e1e6;
+    --info-border: #458588;
+    --card-bg: #fbf1c7;
+    --log-bg: #f2e5bc;
+    --success-color: #3c3836;
+    --warning-color: #3c3836;
+    --text-on-dark: #ebdbb2;
+    --text-on-light: #3c3836;
+    --text-secondary-on-dark: #665c54;
+    --button-text: #fbf1c7;
+    --button-secondary-bg: #bdae93;
+    --button-secondary-text: #3c3836;
+    --button-secondary-hover: #a89984;
+    --success-hover: #689d6a;
+    --error-hover: #9d0006;
+    --warning-hover: #af3a03;
+}
