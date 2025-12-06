@@ -22,9 +22,9 @@
     --color-border-strong: #666666;
 
     /* Interactive colors */
-    --color-primary: #e4571b;   /* toned-down LTT orange */
-    --color-primary-hover: #ff6c35;
-    --color-primary-active: #c74312;
+    --color-primary: #cf4d1f;   /* further softened LTT orange */
+    --color-primary-hover: #e75d29;
+    --color-primary-active: #b34117;
     --color-secondary: #3a3a3a;
     --color-secondary-hover: #4a4a4a;
     --color-secondary-active: #2c2c2c;
@@ -106,9 +106,9 @@
     --color-border-strong: #a9a9a9;
 
     /* Interactive colors */
-    --color-primary: #e4571b;
-    --color-primary-hover: #c74312;
-    --color-primary-active: #a2350d;
+    --color-primary: #cf4d1f;
+    --color-primary-hover: #b34117;
+    --color-primary-active: #8f2a0f;
     --color-secondary: #ffffff;
     --color-secondary-hover: #f1f1f1;
     --color-secondary-active: #e6e6e6;
