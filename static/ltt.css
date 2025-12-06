@@ -10,30 +10,30 @@
     --font-primary: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     --font-bold: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 
-    /* Base palette */
-    --color-bg-base: #0f1113;
-    --color-bg-elevated: #16181c;
-    --color-bg-overlay: #1d2025;
-    --color-text-primary: #f5f7fa;
-    --color-text-secondary: #c5ccd6;
-    --color-text-tertiary: #9aa2af;
-    --color-border-default: #2a2f36;
-    --color-border-subtle: #1a1e23;
-    --color-border-strong: #3a414b;
+    /* Base palette inspired by LTT site */
+    --color-bg-base: #0e0e0e;
+    --color-bg-elevated: #181818;
+    --color-bg-overlay: #23282f;
+    --color-text-primary: #f7f6f3;
+    --color-text-secondary: #c1c8d1;
+    --color-text-tertiary: #8d96a5;
+    --color-border-default: #2d3238;
+    --color-border-subtle: #1a1d21;
+    --color-border-strong: #3e454f;
 
     /* Interactive colors */
-    --color-primary: #ff6f2c;
-    --color-primary-hover: #ff8a4f;
-    --color-primary-active: #e85b1a;
-    --color-secondary: #2d343f;
-    --color-secondary-hover: #3a424f;
-    --color-secondary-active: #4a5260;
+    --color-primary: #ff4d00;
+    --color-primary-hover: #f0523d;
+    --color-primary-active: #e4351e;
+    --color-secondary: #2f333a;
+    --color-secondary-hover: #3c414b;
+    --color-secondary-active: #4a505b;
 
-    /* Status colors */
-    --color-success: #4ade80;
-    --color-success-bg: #153321;
-    --color-success-border: #34c759;
-    --color-success-text: #e8ffef;
+    /* Status colors (keeping LTT accent language) */
+    --color-success: #57d157;
+    --color-success-bg: #142915;
+    --color-success-border: #57d157;
+    --color-success-text: #e9ffe9;
     --color-error: #ff4d4f;
     --color-error-bg: #2a1515;
     --color-error-border: #ff4d4f;
@@ -41,21 +41,21 @@
     --color-warning: #ffba08;
     --color-warning-bg: #2e240c;
     --color-warning-border: #ffba08;
-    --color-warning-text: #fff5ce;
-    --color-info: #00b5c3;
-    --color-info-bg: #0c2a30;
-    --color-info-border: #00c7d9;
-    --color-info-text: #e5fcff;
+    --color-warning-text: #fff3c4;
+    --color-info: #00b2ff;
+    --color-info-bg: #0a1f2b;
+    --color-info-border: #00b2ff;
+    --color-info-text: #e0f6ff;
 
     /* Component-specific */
-    --color-card-bg: #181c21;
-    --color-card-border: #2f3640;
+    --color-card-bg: #16191e;
+    --color-card-border: #30363f;
     --color-log-bg: #070809;
-    --color-log-text: #f5f7fa;
-    --color-input-bg: #1b1f26;
-    --color-input-border: #333b47;
-    --color-input-text: #f5f7fa;
-    --color-input-placeholder: #7b838f;
+    --color-log-text: #f7f6f3;
+    --color-input-bg: #1a1e24;
+    --color-input-border: #3a3f48;
+    --color-input-text: #f7f6f3;
+    --color-input-placeholder: #88909f;
 
     /* Legacy mappings */
     --bg-primary: var(--color-bg-base);
@@ -95,51 +95,51 @@
     --font-bold: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 
     /* Base palette */
-    --color-bg-base: #f4f6fa;
-    --color-bg-elevated: #e7ecf3;
-    --color-bg-overlay: #dbe1eb;
-    --color-text-primary: #1a1d23;
-    --color-text-secondary: #424853;
-    --color-text-tertiary: #636973;
-    --color-border-default: #c4ccd8;
-    --color-border-subtle: #dde3ed;
-    --color-border-strong: #9aa3b1;
+    --color-bg-base: #f7f6f3;
+    --color-bg-elevated: #ece7df;
+    --color-bg-overlay: #e0d8cd;
+    --color-text-primary: #222327;
+    --color-text-secondary: #4a4f57;
+    --color-text-tertiary: #6a6f79;
+    --color-border-default: #cbc1b1;
+    --color-border-subtle: #ded5c7;
+    --color-border-strong: #b4aa9a;
 
     /* Interactive colors */
-    --color-primary: #ff6f2c;
-    --color-primary-hover: #e85b1a;
-    --color-primary-active: #c9490f;
+    --color-primary: #ff4d00;
+    --color-primary-hover: #e4351e;
+    --color-primary-active: #bd2b18;
     --color-secondary: #ffffff;
-    --color-secondary-hover: #f4f6fa;
-    --color-secondary-active: #e7ecf3;
+    --color-secondary-hover: #f7f6f3;
+    --color-secondary-active: #ece7df;
 
     /* Status colors */
-    --color-success: #2ba24c;
+    --color-success: #1f9950;
     --color-success-bg: #dff5e7;
-    --color-success-border: #2ba24c;
-    --color-success-text: #1a1d23;
+    --color-success-border: #1f9950;
+    --color-success-text: #1f2a1f;
     --color-error: #d7263d;
     --color-error-bg: #fde3e7;
     --color-error-border: #d7263d;
-    --color-error-text: #1a1d23;
+    --color-error-text: #2b1619;
     --color-warning: #f58f00;
-    --color-warning-bg: #fff0d6;
+    --color-warning-bg: #ffe8c7;
     --color-warning-border: #f58f00;
-    --color-warning-text: #1a1d23;
+    --color-warning-text: #2f1e04;
     --color-info: #008fa8;
     --color-info-bg: #d3f1f6;
     --color-info-border: #008fa8;
-    --color-info-text: #1a1d23;
+    --color-info-text: #08262c;
 
     /* Component-specific */
     --color-card-bg: #ffffff;
-    --color-card-border: #c4ccd8;
-    --color-log-bg: #f0f3f8;
-    --color-log-text: #1a1d23;
+    --color-card-border: #cbc1b1;
+    --color-log-bg: #f0ece3;
+    --color-log-text: #222327;
     --color-input-bg: #ffffff;
-    --color-input-border: #c4ccd8;
-    --color-input-text: #1a1d23;
-    --color-input-placeholder: #636973;
+    --color-input-border: #cbc1b1;
+    --color-input-text: #222327;
+    --color-input-placeholder: #6a6f79;
 
     /* Legacy mappings */
     --bg-primary: var(--color-bg-base);
