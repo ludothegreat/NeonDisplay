@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'LTTSans';
+    src: url('/static/font/mx_univga.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-primary: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    --font-bold: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+    /* Base palette */
+    --color-bg-base: #0f1113;
+    --color-bg-elevated: #16181c;
+    --color-bg-overlay: #1d2025;
+    --color-text-primary: #f5f7fa;
+    --color-text-secondary: #c5ccd6;
+    --color-text-tertiary: #9aa2af;
+    --color-border-default: #2a2f36;
+    --color-border-subtle: #1a1e23;
+    --color-border-strong: #3a414b;
+
+    /* Interactive colors */
+    --color-primary: #ff6f2c;
+    --color-primary-hover: #ff8a4f;
+    --color-primary-active: #e85b1a;
+    --color-secondary: #2d343f;
+    --color-secondary-hover: #3a424f;
+    --color-secondary-active: #4a5260;
+
+    /* Status colors */
+    --color-success: #4ade80;
+    --color-success-bg: #153321;
+    --color-success-border: #34c759;
+    --color-success-text: #e8ffef;
+    --color-error: #ff4d4f;
+    --color-error-bg: #2a1515;
+    --color-error-border: #ff4d4f;
+    --color-error-text: #ffecec;
+    --color-warning: #ffba08;
+    --color-warning-bg: #2e240c;
+    --color-warning-border: #ffba08;
+    --color-warning-text: #fff5ce;
+    --color-info: #00b5c3;
+    --color-info-bg: #0c2a30;
+    --color-info-border: #00c7d9;
+    --color-info-text: #e5fcff;
+
+    /* Component-specific */
+    --color-card-bg: #181c21;
+    --color-card-border: #2f3640;
+    --color-log-bg: #070809;
+    --color-log-text: #f5f7fa;
+    --color-input-bg: #1b1f26;
+    --color-input-border: #333b47;
+    --color-input-text: #f5f7fa;
+    --color-input-placeholder: #7b838f;
+
+    /* Legacy mappings */
+    --bg-primary: var(--color-bg-base);
+    --bg-secondary: var(--color-bg-elevated);
+    --bg-tertiary: var(--color-bg-overlay);
+    --text-primary: var(--color-text-primary);
+    --text-secondary: var(--color-text-secondary);
+    --accent-color: var(--color-primary);
+    --accent-hover: var(--color-primary-hover);
+    --border-color: var(--color-border-default);
+    --success-bg: var(--color-success-bg);
+    --success-border: var(--color-success-border);
+    --success-color: var(--color-success-text);
+    --error-bg: var(--color-error-bg);
+    --error-border: var(--color-error-border);
+    --warning-bg: var(--color-warning-bg);
+    --warning-border: var(--color-warning-border);
+    --warning-color: var(--color-warning-text);
+    --info-bg: var(--color-info-bg);
+    --info-border: var(--color-info-border);
+    --card-bg: var(--color-card-bg);
+    --log-bg: var(--color-log-bg);
+    --text-on-dark: var(--color-text-primary);
+    --text-on-light: #0f1113;
+    --text-secondary-on-dark: var(--color-text-secondary);
+    --button-text: #0f1113;
+    --button-secondary-bg: var(--color-secondary);
+    --button-secondary-text: var(--color-text-primary);
+    --button-secondary-hover: var(--color-secondary-hover);
+    --success-hover: #3ec46b;
+    --error-hover: #ff6b6d;
+    --warning-hover: #ffc73a;
+}
+
+[data-theme="light"] {
+    --font-primary: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    --font-bold: 'LTTSans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+    /* Base palette */
+    --color-bg-base: #f4f6fa;
+    --color-bg-elevated: #e7ecf3;
+    --color-bg-overlay: #dbe1eb;
+    --color-text-primary: #1a1d23;
+    --color-text-secondary: #424853;
+    --color-text-tertiary: #636973;
+    --color-border-default: #c4ccd8;
+    --color-border-subtle: #dde3ed;
+    --color-border-strong: #9aa3b1;
+
+    /* Interactive colors */
+    --color-primary: #ff6f2c;
+    --color-primary-hover: #e85b1a;
+    --color-primary-active: #c9490f;
+    --color-secondary: #ffffff;
+    --color-secondary-hover: #f4f6fa;
+    --color-secondary-active: #e7ecf3;
+
+    /* Status colors */
+    --color-success: #2ba24c;
+    --color-success-bg: #dff5e7;
+    --color-success-border: #2ba24c;
+    --color-success-text: #1a1d23;
+    --color-error: #d7263d;
+    --color-error-bg: #fde3e7;
+    --color-error-border: #d7263d;
+    --color-error-text: #1a1d23;
+    --color-warning: #f58f00;
+    --color-warning-bg: #fff0d6;
+    --color-warning-border: #f58f00;
+    --color-warning-text: #1a1d23;
+    --color-info: #008fa8;
+    --color-info-bg: #d3f1f6;
+    --color-info-border: #008fa8;
+    --color-info-text: #1a1d23;
+
+    /* Component-specific */
+    --color-card-bg: #ffffff;
+    --color-card-border: #c4ccd8;
+    --color-log-bg: #f0f3f8;
+    --color-log-text: #1a1d23;
+    --color-input-bg: #ffffff;
+    --color-input-border: #c4ccd8;
+    --color-input-text: #1a1d23;
+    --color-input-placeholder: #636973;
+
+    /* Legacy mappings */
+    --bg-primary: var(--color-bg-base);
+    --bg-secondary: var(--color-bg-elevated);
+    --bg-tertiary: var(--color-bg-overlay);
+    --text-primary: var(--color-text-primary);
+    --text-secondary: var(--color-text-secondary);
+    --accent-color: var(--color-primary);
+    --accent-hover: var(--color-primary-hover);
+    --border-color: var(--color-border-default);
+    --success-bg: var(--color-success-bg);
+    --success-border: var(--color-success-border);
+    --success-color: var(--color-success-text);
+    --error-bg: var(--color-error-bg);
+    --error-border: var(--color-error-border);
+    --warning-bg: var(--color-warning-bg);
+    --warning-border: var(--color-warning-border);
+    --warning-color: var(--color-warning-text);
+    --info-bg: var(--color-info-bg);
+    --info-border: var(--color-info-border);
+    --card-bg: var(--color-card-bg);
+    --log-bg: var(--color-log-bg);
+    --text-on-dark: #f5f7fa;
+    --text-on-light: var(--color-text-primary);
+    --text-secondary-on-dark: #c5ccd6;
+    --button-text: #ffffff;
+    --button-secondary-bg: var(--color-secondary);
+    --button-secondary-text: var(--color-text-primary);
+    --button-secondary-hover: var(--color-secondary-hover);
+    --success-hover: #1f7a35;
+    --error-hover: #a91e30;
+    --warning-hover: #c57100;
+}
